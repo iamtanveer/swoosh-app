@@ -124,7 +124,7 @@
                                     </label>
                                 </subviews>
                             </stackView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSN-yg-s64" customClass="BorderButton" customModule="swoosh_app" customModuleProvider="target">
+                            <button opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSN-yg-s64" customClass="BorderButton" customModule="swoosh_app" customModuleProvider="target">
                                 <rect key="frame" x="16" y="600" width="343" height="51"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.5" colorSpace="calibratedRGB"/>
                                 <constraints>
@@ -151,6 +151,9 @@
                                         <state key="normal" title="Mens">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onMensTapped:" destination="Nen-3u-VGG" eventType="touchUpInside" id="hYF-QH-M5e"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1xQ-SU-I8U" customClass="BorderButton" customModule="swoosh_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="71" width="343" height="51"/>
@@ -162,6 +165,9 @@
                                         <state key="normal" title="Womens">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onWomensTapped:" destination="Nen-3u-VGG" eventType="touchUpInside" id="Fbf-5k-fZ0"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pPb-ZP-RJQ" customClass="BorderButton" customModule="swoosh_app" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="142" width="343" height="51"/>
@@ -173,6 +179,9 @@
                                         <state key="normal" title="Co-ed">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <action selector="onCoedTapped:" destination="Nen-3u-VGG" eventType="touchUpInside" id="zAc-5I-DLC"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -209,6 +218,7 @@
                         <viewLayoutGuide key="safeArea" id="fbA-LS-gmk"/>
                     </view>
                     <connections>
+                        <outlet property="nextBtn" destination="rSN-yg-s64" id="K5T-UO-hdV"/>
                         <segue destination="rDF-af-JFz" kind="show" identifier="skillVCSegue" id="rn4-f8-JFM"/>
                     </connections>
                 </viewController>

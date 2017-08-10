@@ -15,6 +15,7 @@
 		A1B19B0E1F38F302006C0CF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B19B0D1F38F302006C0CF3 /* Assets.xcassets */; };
 		A1B19B111F38F302006C0CF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B19B0F1F38F302006C0CF3 /* LaunchScreen.storyboard */; };
 		A1B19B1A1F38FA6F006C0CF3 /* BorderButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B19B191F38FA6F006C0CF3 /* BorderButton.swift */; };
+		A1F5226E1F3C281700FA4B43 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F5226D1F3C281700FA4B43 /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		A1B19B101F38F302006C0CF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1B19B121F38F302006C0CF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1B19B191F38FA6F006C0CF3 /* BorderButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderButton.swift; sourceTree = "<group>"; };
+		A1F5226D1F3C281700FA4B43 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		A15AF42A1F3B9C2500A0255B /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				A1F5226D1F3C281700FA4B43 /* Player.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -172,6 +175,7 @@
 				A15AF42C1F3B9D2100A0255B /* LeagueVC.swift in Sources */,
 				A1B19B071F38F302006C0CF3 /* AppDelegate.swift in Sources */,
 				A15AF42E1F3B9D4B00A0255B /* SkillVC.swift in Sources */,
+				A1F5226E1F3C281700FA4B43 /* Player.swift in Sources */,
 				A1B19B1A1F38FA6F006C0CF3 /* BorderButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
